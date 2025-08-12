@@ -58,11 +58,14 @@ class InstagramClient:
         logger.info("Login successful")
         self.client.dump_settings(os.path.join(os.getcwd(), "session.json"))
 
-    def fetch_reels(self, count: int = 10) -> list[str]:
+    def fetch_reels(self, last_pk, count: int = 10) -> list[str]:
         """
         Fetches reels from the Instagram explore page.
         :param count: Number of reels to fetch.
         :return: List of CDN URLs for the reels.
         """
-        reels = self.client.reels_timeline_media("explore_reels", count)
-        return [reel.video_url for reel in reels if reel.video_url]
+        if last_pk is None:
+            last_pk = 0
+        reels = self.client.reels_timeline_media("explore_reels", count, last_media_pk=last_pk)
+        last_pk = reels[-1].pk if reels else last_pk
+        return [reel.video_url for reel in reels if reel.video_url], last_pk

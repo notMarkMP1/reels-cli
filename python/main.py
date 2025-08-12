@@ -8,6 +8,8 @@ SOCKET_PATH = "/tmp/uds_socket"
 USERNAME = "your_instagram_username"
 PASSWORD = "your_instagram_password"
 
+last_pk = None
+
 if __name__ == "__main__":
     insta_client = InstagramClient(USERNAME, PASSWORD)
     insta_client.login()
@@ -20,11 +22,6 @@ if __name__ == "__main__":
                     case "exit":
                         break
                     case "fetch":
-                        # uds_client.send_message("videos/test1.mp4")
-                        # time.sleep(0.1)
-                        # uds_client.send_message("videos/test2.mp4")
-                        # time.sleep(0.1)
-                        # uds_client.send_message("videos/test3.mp4")
                         reels = insta_client.fetch_reels(5)
                         str_reels = [str(reel) for reel in reels]
                         for reel in str_reels:

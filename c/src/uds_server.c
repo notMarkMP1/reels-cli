@@ -221,7 +221,7 @@ void* uds_server_thread_func(void* arg) {
             // add the received message to the video list
             if (server->app && server->app->video_list) {
                 pthread_mutex_lock(&server->app->video_list_mutex);
-                vector_push_back(server->app->video_list, buffer);
+                vector_push_back_unique(server->app->video_list, buffer);
                 pthread_mutex_unlock(&server->app->video_list_mutex);
                 // printf("Added video to list: %s\n", buffer);
             }

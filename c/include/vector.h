@@ -19,6 +19,10 @@ void vector_push_back(string_vector *v, const char *str);
 
 char* vector_get(const string_vector *v, size_t index);
 
+int vector_contains(const string_vector *v, const char *str);
+
+void vector_push_back_unique(string_vector *v, const char *str);
+
 void vector_free(string_vector *v);
 
 #endif // VECTOR_H
