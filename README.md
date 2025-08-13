@@ -168,6 +168,7 @@ Depending on your system specifications and internet speeds, video playback may 
 
 Here are some improvements and TODOs in order of importance:
 - Audio likes to crackle a lot, this NEEDS to be fixed (but I have not much idea how)
+- The performance of the video player is horrible (this is probably related to the audio issues)
 - Login directly over command line arguments/environment variables rather than hardcoding in the script
 - The code is a mess, needs a better file structure and refactoring
 - Improve video playback performance (buffering, etc.)
