@@ -70,6 +70,7 @@ That's it!
 5. **Configure Instagram credentials:**
 > [!CAUTION]
 > Instagrapi is NOT an unfoficial API. This is a violation of Instagram's terms of service. Use at your own risk. My own alt account was flagged for suspicious behaviour multiple times during testing.
+
     Edit `python/main.py` and replace the placeholder credentials:
     ```python
     USERNAME = "your_instagram_username"
