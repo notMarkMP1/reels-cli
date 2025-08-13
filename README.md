@@ -24,7 +24,7 @@ That's it!
 > There is no built release for this project. Setting this up may be painful, and it is not guaranteed to work on all systems. For reference, I am using WSL2 (2.4.12) on Windows 11 with Ubuntu 24.04, using the default WSL terminal (non administrator). A terminal emulator with proper graphics support (think Kitty, etc.) would probably work better. Heavy tinkering will probably be required to get this working on your system, **use at your own risk**. 
 
 > [!CAUTION]
-> **There are no guarantees that this will work on your system. I made this project for personal and educational use!!!**
+> **There are no guarantees that this will work on your system. I made this project for personal and educational use!!!** Also, **instagrapi** is **not an official Meta API**, and is a violation of their TOS. Use your accounts with risk. My accounts have been flagged multiple times while using the unofficial API.
 
 ### Prerequisites
 
@@ -68,11 +68,7 @@ That's it!
     ```
 
 5. **Configure Instagram credentials:**
-> [!CAUTION]
-> Instagrapi is NOT an unfoficial API. This is a violation of Instagram's terms of service. Use at your own risk. My own alt account was flagged for suspicious behaviour multiple times during testing.
-
     Edit `python/main.py` and replace the placeholder credentials:
-
     ```python
     USERNAME = "your_instagram_username"
     PASSWORD = "your_instagram_password"
