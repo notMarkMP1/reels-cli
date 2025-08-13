@@ -68,7 +68,8 @@ That's it!
     ```
 
 5. **Configure Instagram credentials:**
-    
+    > [!CAUTION]
+    > Instagrapi is NOT an unfoficial API. This is a violation of Instagram's terms of service. Use at your own risk. My own alt account was flagged for suspicious behaviour multiple times during testing.
     Edit `python/main.py` and replace the placeholder credentials:
     ```python
     USERNAME = "your_instagram_username"
@@ -166,9 +167,9 @@ This project has many potential points of failures. If Instagram updates their A
 Depending on your system specifications and internet speeds, video playback may be choppy as well. This project was not built for performance, but rather as a fun experiment.
 
 Here are some improvements and TODOs in order of importance:
+- Audio likes to crackle a lot, this NEEDS to be fixed (but I have not much idea how)
 - Login directly over command line arguments/environment variables rather than hardcoding in the script
 - The code is a mess, needs a better file structure and refactoring
-- Audio likes to crackle a lot, should be fixed
 - Improve video playback performance (buffering, etc.)
 - Video playback optimizations (caching, preloading videos, etc.)
 - Implement better error handling and logging
