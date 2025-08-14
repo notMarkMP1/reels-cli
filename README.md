@@ -24,7 +24,7 @@ Take a look at [instagram-cli](https://github.com/supreme-gg-gg/instagram-cli)! 
 ## Installation
 
 > [!IMPORTANT]
-> There is no built release for this project. Setting this up may be painful, and it is not guaranteed to work on all systems. For reference, I am using WSL2 (2.4.12) on Windows 11 with Ubuntu 24.04, using the default WSL terminal (non administrator). A terminal emulator with proper graphics support (think Kitty, etc.) would probably work better. Heavy tinkering will probably be required to get this working on your system, **use at your own risk**. 
+> There is no built release for this project. Setting this up may be painful, and it is not guaranteed to work on all systems.  A terminal emulator with proper graphics support (think Kitty, etc.) would probably work best. Heavy tinkering will probably be required to get this working on your system, **use at your own risk**. This project was built for fun, not for purpose. 
 
 
 ### Prerequisites
