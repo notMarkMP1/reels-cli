@@ -18,13 +18,14 @@ The controls are simple:
 
 That's it! 
 
+### Want to actually *use* Instagram in your terminal?
+Take a look at [instagram-cli](https://github.com/supreme-gg-gg/instagram-cli)! Use instagram right in your terminal without, completely free from brainrot and into the true ultimate productivity tool. Plus, their CLI actually works and is easy to set up! Just `pip install instagram-cli` and you're good to go.
+
 ## Installation
 
 > [!IMPORTANT]
 > There is no built release for this project. Setting this up may be painful, and it is not guaranteed to work on all systems. For reference, I am using WSL2 (2.4.12) on Windows 11 with Ubuntu 24.04, using the default WSL terminal (non administrator). A terminal emulator with proper graphics support (think Kitty, etc.) would probably work better. Heavy tinkering will probably be required to get this working on your system, **use at your own risk**. 
 
-> [!CAUTION]
-> **There are no guarantees that this will work on your system. I made this project for personal and educational use!!!** Also, **instagrapi** is **not an official Meta API**, and is a violation of their TOS. Use your accounts with risk. My accounts have been flagged multiple times while using the unofficial API.
 
 ### Prerequisites
 
