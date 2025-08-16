@@ -6,7 +6,11 @@ This is why I made `reels-cli`. This project allows you to watch Instagram reels
 
 Built with C and Python. Special shoutout to [notcurses](https://github.com/dankamongmen/notcurses) and [instagrapi](https://github.com/subzeroid/instagrapi) for their amazing libraries.
 
-![reels-cli homepage](./docs/homepage.png)
+![reels-cli homepage screenshot](./docs/homepage.png)
+
+
+https://github.com/user-attachments/assets/65a6e125-8a45-4f3e-ac2a-e98bdc7fd55c
+
 
 ## About
 Yes, this project does work. It plays videos directly from your Instagram algorithm (explore page, though). There is even audio and video playback as well! 
